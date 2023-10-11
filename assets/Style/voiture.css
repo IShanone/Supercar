@@ -1,0 +1,95 @@
+main form{
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+main{
+  background-color:  #cfe2ff;
+}
+
+
+
+
+.breadcrumb-option {
+	padding-top: 35px;
+}
+
+.breadcrumb__links a {
+	font-size: 15px;
+	font-weight: 500;
+	color: #111111;
+	margin-right: 18px;
+	display: inline-block;
+	position: relative;
+}
+
+.breadcrumb__links a:after {
+	position: absolute;
+	right: -14px;
+	top: 0;
+	content: "";
+	font-family: "FontAwesome";
+}
+
+.breadcrumb__links a i {
+	margin-right: 5px;
+}
+
+.breadcrumb__links span {
+	font-size: 15px;
+	font-weight: 500;
+	color: #888888;
+	display: inline-block;
+}
+
+
+
+.car-info {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	padding: 20px;
+	text-align: center;
+	background-color: #f7f7f7;
+	height: 100%;
+  }
+  
+  .car-info:hover {
+	box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .car-img {
+	width: 100%;
+	min-height: 200px;
+	max-height: 200px;
+	object-fit: cover;
+	margin-bottom: 20px;
+  }
+  
+  .car-name {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .car-test-drive-btn {
+	background-color: #5268af;
+	border-color: #007bff;
+  }
+  
+  .car-details-btn {
+	background-color: #28b923;
+	border-color: #6c757d;
+  }
+  
+
+
+
+
+
+
+
+
+
+

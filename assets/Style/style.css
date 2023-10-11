@@ -1,0 +1,142 @@
+.navbar{
+  background-color: white;
+}
+nav ul li,.d-flex{
+  font-size: 1.3EM;
+  margin-left: 20px;
+}
+
+nav .d-flex a{
+  color: black;
+  text-decoration: none;
+}
+
+nav .main {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+}
+nav .has-search .form-control {
+  padding-left: 2.375rem;
+}
+nav .has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  transition: opacity 5s, visibility 2s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #cfe2ff;
+  border-top-color: #000000;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes ouverture {
+  0% {
+    content: ".";
+    color: black;
+  }
+
+  5% {
+    content: "..";
+    color: orange;
+  }
+
+  10% {
+    content: "...";
+    color: green;
+  }
+
+  15% {
+    content: "rapidement";
+    color: orange;
+  }
+
+  55% {
+    content: ".";
+    color: black;
+  }
+
+  57% {
+    content: "..";
+    color: orange;
+  }
+
+  68% {
+    content: "...";
+    color: green;
+  }
+
+  70% {
+    content: "facilement";
+    color: blue;
+  }
+
+  100% {
+    content: "!";
+  }
+
+}
+
+.animation_accueil::before {
+  content: "";
+  animation: ouverture 10s linear infinite;
+}
+
+@keyframes win {
+  from {
+    display: none;
+  }
+
+  to {
+    color: green;
+  }
+}
+
+.animation_accueil {
+  color: blue;
+  animation: win 2s linear infinite;
+}
+
+.text {
+
+  background-color: rgba(73, 96, 135, 0.507);
+
+}
+
+
+footer{
+
+  margin-bottom: 0;
+  background-color: white;
+
+}
+
