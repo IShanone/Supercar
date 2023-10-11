@@ -1,2 +1,2 @@
 # Supercar
-build and share 
+Merci de bien vouloir nous suivre
