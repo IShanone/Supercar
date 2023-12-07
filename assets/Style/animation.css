@@ -1,0 +1,57 @@
+/*
+accueil animation
+ */
+@keyframes defile_text {
+  from {
+    display: none;
+  }
+
+  to {
+    color: green;
+  }
+}
+@keyframes text_defile {
+  0% {
+    content: ".";
+    color: black;
+  }
+
+  5% {
+    content: "..";
+    color: orange;
+  }
+
+  10% {
+    content: "...";
+    color: green;
+  }
+
+  15% {
+    content: "rapide";
+    color: orange;
+  }
+
+  55% {
+    content: ".";
+    color: black;
+  }
+
+  57% {
+    content: "..";
+    color: orange;
+  }
+
+  68% {
+    content: "...";
+    color: green;
+  }
+
+  70% {
+    content: "facilement";
+    color: blue;
+  }
+
+  100% {
+    content: "!";
+  }
+}

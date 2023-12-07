@@ -1,0 +1,35 @@
+/* Couleur importation */
+@import url("couleur.css");
+
+/**----------------------------------------*/
+/** En tete de site avec navigation nav bar*/
+/**----------------------------------------*/
+nav ul li,
+.d-flex {
+  font-size: 1.1em;
+  margin-left: 15px;
+}
+
+/**-------------------------------------------------------------*/
+/** body et mettre footer adapter en bas selon la taille de main*/
+/**-------------------------------------------------------------*/
+
+/* Elimine espace dans le contenu de body */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Pour enlever les focus par default de bootstrap */
+.not-outline:focus {
+  box-shadow: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+  background-color: var(--couleur-principale);
+}

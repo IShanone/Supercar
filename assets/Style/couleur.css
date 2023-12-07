@@ -1,0 +1,9 @@
+/**-----------------------*/
+/* *Les couleurs de theme */
+/**-----------------------*/
+:root {
+  --couleur-principale: #cfe2ff;
+  --couleur-blanche: #fff;
+  --couleur-noire: #000;
+  --couleur-bleu: blue;
+}

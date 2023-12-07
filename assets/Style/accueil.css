@@ -1,0 +1,15 @@
+@import url("animation.css");
+@import url("couleur.css");
+
+/* Animation apres navbar */
+/**
+    animation de text
+ */
+.animation_accueil {
+  color: var(--couleur-bleu);
+  animation: defile_text 2s linear infinite;
+}
+.animation_accueil::before {
+  content: "";
+  animation: text_defile 10s linear infinite;
+}
