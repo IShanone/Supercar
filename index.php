@@ -9,7 +9,9 @@ foreach ($files as $file) {
 }
 $bdd = bdconnect();
 $services = services();
-
+$marques = marques();
+$types = types();
+$voitures = voitures();
 
 //Recuperer p : page 
 $page = isset($_GET['p']) ? $_GET['p'] : 'accueil';

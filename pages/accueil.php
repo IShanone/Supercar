@@ -63,18 +63,25 @@
                     </div>
                 </div>
             </div>
-
             <!-- carousel ds voiture ainsi marque type  -->
             <div class="col-lg-6 mb-3">
 
-                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                     <div class="carousel-inner row w-100 mx-auto">
                         <div class="carousel-item col-md-3 active">
-                            <img class="img-fluid mx-auto d-block" src="https://cdn.pixabay.com/photo/2023/11/09/13/21/swallowtail-butterfly-8377375_1280.jpg" alt="slide 1" />
+                            <img class="img-fluid mx-auto d-block" src="<?= $marques[0]['url_marque'] ?>" height="500px" alt="slide 1" />
                         </div>
 
                         <div class="carousel-item col-md-3">
-                            <img class="img-fluid mx-auto d-block" src="<?= URL_IMAGE ?>/fond.jpg" alt="slide 2" />
+                            <img class="img-fluid mx-auto d-block" src="<?= $types[0]['image_type'] ?>" height="500px" alt="slide 2" />
+                        </div>
+
+                        <div class="carousel-item col-md-3">
+                            <img class="img-fluid mx-auto d-block" src="<?= URL_IVOITURES . $voitures[0]['url_image'] ?>" height="500px" alt="slide 3" />
+                        </div>
+
+                        <div class="carousel-item col-md-3">
+                            <img class="img-fluid mx-auto d-block" src="<?= $services[0]['image_service'] ?>" height="500px" alt="slide 4" />
                         </div>
                     </div>
                 </div>

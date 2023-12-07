@@ -21,8 +21,10 @@ define('URL_FONT_AWESOME', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
 // Chemin vers l'accès CSS
 define("URL_CSS", 'assets/Style');
 
-// Chemin vers les images
+// Chemin vers les images voiture
 define('URL_IMAGE', 'assets/images');
+
+define('URL_IVOITURES', 'assets/images/voitures');
 
 // Chemin vers les logos
 define('URL_LOGO', 'assets/images/logo');
@@ -35,4 +37,4 @@ define('URL_PAGE', 'pages');
 
 
 // Chemin vers les requetes
-define('URL_REQUETES','requetes/');
+define('URL_REQUETES', 'requetes/');
