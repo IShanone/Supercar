@@ -53,7 +53,7 @@
                         <h4 class="card-title text-uppercase">
                             SERVICES
                             <span class="app-feature-icon glyphicon glyphicon-globe">
-                                <img src="assets/images/logo/rechercher.png" alt="Rechercher" width="32" height="32">
+                                <img src="assets/images/logo/service-client.png" alt="Rechercher" width="32" height="32">
                             </span>
                         </h4>
                         <p class="card-text">Une large gamme de services à tous vos besoins en matière de voiture</p>
@@ -95,7 +95,7 @@
                         <h4 class="card-title text-uppercase">
                             Types de voitures
                             <span class="app-feature-icon glyphicon glyphicon-globe">
-                                <img src="assets/images/logo/rechercher.png" alt="Rechercher" width="32" height="32">
+                                <img src="assets/images/logo/rechercher (1).png" alt="Rechercher" width="32" height="32">
                             </span>
                         </h4>
                         <p class="card-text">Proposons des types de voitures aux besoins des consommateurs</p>
@@ -111,7 +111,7 @@
                         <h4 class="card-title text-uppercase">
                             Contacts
                             <span class="app-feature-icon glyphicon glyphicon-globe">
-                                <img src="assets/images/logo/rechercher.png" alt="Rechercher" width="32" height="32">
+                                <img src="assets/images/logo/communiquer.png" alt="Rechercher" width="32" height="32">
                             </span>
                         </h4>
                         <p class="card-text">Si vous avez des questions n'hésite pas à nous demandez</p>

@@ -1,5 +1,5 @@
 <main class="container">
-  <section class="jumbotron text-center" style="background-image: url('assets/images/services/service.jpg'); background-size: cover;height:500px ; border-radius: 0 0 30px 30px">
+  <section class="jumbotron text-center" style="background-image: url('assets/images/services/service.jpg'); background-size: cover;height:500px ; border-radius: 30px 30px 30px 30px;margin-top:10px;">
     <div class="container fond">
       <h1 class="jumbotron-heading">Bienvenue sur la page service</h1>
       <p class="lead text-muted"> <b>Découvrez nos services de qualité pour votre besoin </b></p>

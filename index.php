@@ -52,12 +52,12 @@ $page = isset($_GET['p']) ? $_GET['p'] : 'accueil';
 				break;
 
 			case 'contact':
-				# pour inclure accueil
+				# pour inclure contact
 				include(URL_PAGE . "/contact.php");
 				break;
 
 			case 'services':
-				# pour inclure accueil
+				# pour inclure services
 				include(URL_PAGE . "/services.php");
 				break;
 			case 'marques':
@@ -71,12 +71,26 @@ $page = isset($_GET['p']) ? $_GET['p'] : 'accueil';
 			case 'detservice':
 				$service = service();
 
-				# pour inclure accueil
+				# pour inclure detservice
 				include(URL_PAGE . "/detservice.php");
 				break;
 			case 'politique':
-				# pour inclure accueil
+				# pour inclure politique
 				include(URL_PAGE . "/politique.php");
+				break;
+
+			case 'demande':
+				# pour inclure demande
+				/**
+				 * Si la session n'existe pas on dirige vers connexion
+				 */
+
+				include(URL_PAGE . "/demande.php");
+				break;
+
+			case 'connexion':
+				#pour inclure la connexion
+				include(URL_PAGE . "/connexion.php");
 				break;
 
 			default:
