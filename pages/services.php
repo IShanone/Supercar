@@ -4,8 +4,8 @@
       <h1 class="jumbotron-heading">Bienvenue sur la page service</h1>
       <p class="lead text-muted"> <b>Découvrez nos services de qualité pour votre besoin </b></p>
       <p>
-        <a href="/connexion/index.php" class="btn btn-primary my-2">Se connecter</a>
-        <a href="/contact/index.php" class="btn btn-primary my-2">Nous contacter</a>
+        <a href="?p=connexion" class="btn btn-primary my-2">Se connecter</a>
+        <a href="?p=contact" class="btn btn-primary my-2">Nous contacter</a>
       </p>
     </div>
   </section>

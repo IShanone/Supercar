@@ -37,9 +37,9 @@
                     <div class="dropdown-menu dropdown-menu-end p-2 animated--grow-in" aria-labelledby="searchDropdown" style="width: 400px;">
                         <form class="me-auto navbar-search w-100">
                             <div class="input-group">
-                                <input class="bg-light form-control border-0 not-outline" type="text" placeholder="Recherche de voiture" />
+                                <input name="search" class="bg-light form-control border-0 not-outline" type="text" placeholder="Recherche de voiture" />
                                 <div class="input-group-append">
-                                    <button class="btn btn-primary py-2" type="button">
+                                    <button class="btn btn-primary py-2" type="submit">
                                         <i class="fas fa-search"></i>
                                     </button>
                                 </div>
@@ -47,6 +47,7 @@
                         </form>
                     </div>
                 </li>
+
 
             </ul>
             <?php
@@ -59,8 +60,8 @@
                     </a>
 
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="/superpacr/connexion/detaildemande.php">demande</a></li>
-                        <li><a class="dropdown-item" href="/superpacr/connexion/deconnexion.php">Déconnexion</a></li>
+                        <li><a class="dropdown-item" href="#">demande</a></li>
+                        <li><a class="dropdown-item" href="?p=deconnexion">Déconnexion</a></li>
                     </ul>
                 </li>
             <?php

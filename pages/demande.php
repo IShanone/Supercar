@@ -1,3 +1,26 @@
+<?php
+$remaque = '';
+
+$mail = $_SESSION['utilisateur']['mail'];
+if (isset($_GET['idv']) && $_GET['idv'] != null) {
+    $detail_voiture = detail_voiture();
+    $image = (!empty($detail_voiture['url_image'])) ? '<div style="width: 100%; height: 300px; overflow: hidden;">
+        <img style="object-fit: cover; width: 100%; height: 100%;" src="' . URL_IVOITURES . '/' . $detail_voiture['url_image'] . '" alt="Image de couverture"></div>' : '';
+    if (isset($_POST['demande'])) {
+        $_POST['idc'] = $_SESSION['utilisateur']['id_client'];
+        $_POST['idv'] = $detail_voiture['id_voiture'];
+        $remaque = demande();
+    }
+} else {
+    $_GET['idv'] = null;
+
+    if (isset($_POST['demande'])) {
+        $remaque = "<p style='color:red;'>vous devez séléctionner une voiture</p>";
+    }
+
+    $image = '<a href="?p=marques" class="btn btn-dark d-block w-100" required>Choisir voiture</a>';
+}
+?>
 <section class="position-relative py-4 py-xl-5">
     <div class="container position-relative">
         <div class="row d-flex justify-content-center">
@@ -9,7 +32,7 @@
                 <div class="card">
 
                     <div class="card-body p-sm-5">
-                        <form method="post">
+                        <form method="post" action="?p=demande&idv=<?= $_GET['idv'] ?>">
                             <div class="mb-3"></div>
                             <div class="mb-3">
                                 <p><?= $remaque ?></p>
